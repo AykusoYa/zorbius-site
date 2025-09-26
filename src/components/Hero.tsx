@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="relative">
       <div className="absolute inset-0">
-        <Image src="/images/bad1.jpg" alt="Modernes Bad" fill className="object-cover" priority />
+        <Image src="/images/bad1.png" alt="Modernes Bad" fill className="object-cover" priority />
         <div className="absolute inset-0 bg-black/45" />
       </div>
 
