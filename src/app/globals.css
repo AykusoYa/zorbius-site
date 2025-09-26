@@ -1,3 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { scroll-behavior: smooth; }
+
+/* dezente „Logo-Farbwolken“ */
+.brand-gradient{
+  background:
+    radial-gradient(60rem 60rem at 15% 10%, rgba(30,207,227,.18), transparent 60%),
+    radial-gradient(50rem 50rem at 85% 80%, rgba(31,111,209,.15), transparent 55%),
+    radial-gradient(40rem 40rem at 50% 50%, rgba(106,43,59,.10), transparent 60%);
+}
+
+
+
 @import "tailwindcss";
 
 :root {
